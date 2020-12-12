@@ -310,7 +310,7 @@ TEST_CASE( "reload_revolver", "[visitable] [item] [item_location]" )
     const itype_id gun_id( "sw_619" );
     const ammotype gun_ammo( "38" );
     const itype_id ammo_id( "38_special" ); // any type of compatible ammo
-    const itype_id alt_ammo( "357_mag_fmj" ); // any alternative type of compatible ammo
+    const itype_id alt_ammo( "357mag_fmj" ); // any alternative type of compatible ammo
     const itype_id bad_ammo( "9mm" ); // any type of incompatible ammo
     const int mag_cap = 7; // amount of bullets that fit into cylinder
 
@@ -454,5 +454,5 @@ TEST_CASE( "reload_revolver", "[visitable] [item] [item_location]" )
                 }
             }
         }
-    }        
+    }
 }
